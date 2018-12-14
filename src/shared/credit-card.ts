@@ -58,7 +58,7 @@ let cards = [
     luhn: true
   }, {
     type: 'unionpay',
-    patterns: [62, 88],
+    patterns: [62, 81, 88],
     format: defaultFormat,
     length: [16, 17, 18, 19],
     cvvLength: [3],
